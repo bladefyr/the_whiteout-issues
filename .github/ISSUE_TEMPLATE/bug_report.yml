@@ -13,7 +13,8 @@ body:
       label: Game Environment
       description: Pagophobia is built exclusively for this setup. Please confirm your environment.
       options:
-        - "Minecraft 1.20.1 — Forge"
+        - "Oops! I got the wrong environment. (Don't submit)" 
+        - "Minecraft 1.20.1 - Forge"
     validations:
       required: true
 
