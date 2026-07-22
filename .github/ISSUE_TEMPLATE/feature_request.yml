@@ -1,0 +1,40 @@
+name: "💡 Feature Request"
+description: Suggest an idea or mechanic for Pagophobia (Forge 1.20.1)
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have a cool idea for the mod? Let me know! Keep in mind that features must fit the overall theme and scope of Pagophobia.
+
+  - type: textarea
+    id: feature-idea
+    attributes:
+      label: Is your feature request related to a problem?
+      placeholder: "e.g., I find it frustrating when X happens, and I think Y would fix it."
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the feature you'd like to see
+      placeholder: Provide a clear and detailed description of your idea, how it works, and how players would interact with it.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Describe any alternative solutions or features you've considered
+      placeholder: Any other ways this problem or idea could be handled?
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context or Visuals
+      placeholder: Add any other context, screenshots, or concept art that helps explain your idea here.
+    validations:
+      required: false
