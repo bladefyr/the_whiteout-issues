@@ -21,7 +21,7 @@ body:
     id: mod-version
     attributes:
       label: Pagophobia Mod Version
-      placeholder: "e.g., 1.0.2, beta-3"
+      placeholder: "e.g., 0.1.0preAlpha"
     validations:
       required: true
 
